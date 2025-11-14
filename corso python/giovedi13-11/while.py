@@ -1,4 +1,4 @@
-#ciclo matematico con while
+#ciclo matematico con while, il while si uda per eseguire un blocco di codice finchè una determinata condizione è vera
 
 conteggio = 0 
     

@@ -15,5 +15,4 @@ while ripetizione == "si":
     if ripetizione == "no":
         print("Stop")
         
-
-    
+#range(): Funziona incorporata in python che restituisce una sequenza di numeri interi che possono essere usati in cicli for e in altre situazioni in cui è necessario 

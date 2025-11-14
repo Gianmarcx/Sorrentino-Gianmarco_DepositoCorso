@@ -16,7 +16,7 @@ punto = 3,4 #tuple packing
 x , y = punto#tuple unpacking
 print(x , y) #output 3 , 4
 
-#INSIEMI: Sono una struttura dati che rappresenta una collezione non ordinati e senza duplicati di elementi 
+#INSIEMI: Sono una struttura dati che rappresenta una collezione non ordinata e senza duplicati di elementi 
 
 set1 = set([1 , 2 , 3 , 4 , 5])
 set2 = {4 , 5 , 6 ,7 ,8}
