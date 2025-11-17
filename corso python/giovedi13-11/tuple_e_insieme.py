@@ -1,4 +1,4 @@
-#le tuple
+#le tuple strutture di dati simili alle liste ma immutabili.
 
 punto = (3,4)
 colore_rgb = (255.128,0)

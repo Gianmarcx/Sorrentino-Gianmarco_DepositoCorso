@@ -1,5 +1,5 @@
 #le funzioni sono blocchi di codice autonomi che eseguono una determinata operazione.
-#le funzioni sono la più grande prova pratica che l'astrazione esiste 
+#le funzioni sono la più grande prova pratica che l'astrazione esiste e che quindi la stiamo usando
 #le funzioni consentono di organizzare il codice in unità modulari e aiutano a scrivere il codice più leggibile e compresibile
 
 #le definiamo attraverso def seguita dal nome della funzione e da una coppia di () e con : per terminare
