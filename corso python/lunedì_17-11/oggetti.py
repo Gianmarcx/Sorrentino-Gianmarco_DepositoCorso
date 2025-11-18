@@ -4,6 +4,7 @@
 
 #un oggetto è un istanza di una classe ovvero una copia univoca della classe che le sue proprietà uniche
 #le classi sono definite usando la parola chiave class , seguita dal nome classe. Possono contenere metodi e attributi
+#sipossono avere infinii oggetti per ogni classe
 
 #gli attributi sono variabili associate a una classe , rappresentano le proprietà di un oggetto , gli attributi di classe sono condivisi tra tutte le istanze della classe
 
