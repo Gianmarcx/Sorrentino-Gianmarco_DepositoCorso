@@ -13,7 +13,7 @@ studente = {
 studente["città"] = "Roma"
 print(studente)
 
-#fare attenzione alla semamntica
+#fare attenzione alla semantica
 
 #
 

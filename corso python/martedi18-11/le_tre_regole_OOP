@@ -4,5 +4,5 @@
 #incapsulamento è la capacità di difendere elementi specifici ad un livello di profondità, quindi limita le possibiltà di accesso
 #polimorfismo permette di trattare oggetti di classi differenti attravrso una comune interfaccia , favorisce l'estensione e la gestione del codice in modo flessibile e dinamico
 
-#c'è una regola che alla base ovvero l'ASTRAZIONE 
+#c'è una regola che alla base ovvero l'ASTRAZIONE , permette di soffermaci sui dettagli più utili del codice stesso
 
