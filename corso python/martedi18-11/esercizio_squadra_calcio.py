@@ -47,3 +47,4 @@ giocatore = Giocatore(nome_giocatore, età_giocatore, numero_maglia_giocatore, r
 
 nome_allenatore = input("Inserire nome allenatore: ")
 anni_esperienza_allenatore = int("Inserire anni esperienza: ")
+
