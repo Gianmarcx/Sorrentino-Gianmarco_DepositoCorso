@@ -1,5 +1,7 @@
 #la programmazione orientata agli oggetti OOP si basa su 3 concetti fondamentali:
 
+#concetto di programmazione orientata agli oggetti che raggruppa dati (attributi) e metodi all'interno di una classe, proteggendo i dati da accessi esterni non autorizzati
+
 #ereditarietà crea nuove classi partendo da classe esistenti, riutilizzando e specializzando il comportamento definito nelle classi base , favorendo cos' la riusabilità e l'oreganizzazione gerarchica del codice 
 #incapsulamento è la capacità di difendere elementi specifici ad un livello di profondità, quindi limita le possibiltà di accesso
 #polimorfismo permette di trattare oggetti di classi differenti attravrso una comune interfaccia , favorisce l'estensione e la gestione del codice in modo flessibile e dinamico

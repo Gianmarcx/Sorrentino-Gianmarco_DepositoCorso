@@ -1,4 +1,4 @@
-#Metodi Incapsulamento:
+#Metodi Incapsulamento: #concetto di programmazione orientata agli oggetti che raggruppa dati (attributi) e metodi all'interno di una classe, proteggendo i dati da accessi esterni non autorizzati
 
 #Attributi Privati(__attributo) Proponendo due underscore al nome di attribruto , questo diventa privato , significa che non può essere
 #accesso direttamente dall'esterno della classe. Per accedere o modificare un attributo privato si usano i metodi getter e setter
