@@ -40,6 +40,8 @@ class Persona:
 #il costruttore è un metodo speciale che viene invocato automaticamente al momento della creazione di un nuovo oggetto.
 #__init serve ad inizializzare l'oggetto appena creato , impostando attributi e valori iniziali, __init__ accetta sempre almeno il paramentro selfe e accetta ulteriori parametri per la configurazione iniziale
 
+#__str__ è un metodo speciale forniscono una rappresentazione in stringa dell'oggetto che sia leggibile e semplice.
+
 #I metodi sono funzioni definite all'interno di una classe che operano sugli oggetti della classe stessa
 #TIPI DI METODI:
 
