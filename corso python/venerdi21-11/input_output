@@ -1,0 +1,27 @@
+#Input e Output in python: Python offre un insieme di funzioni e metodi per eseguire operazioni (I/O)
+
+#per iniziare a lavorare con un file , è necessario aprirlo con la funzione open().
+#questa funzione accetta due parametri principali : il percorso del file e la modalità di apertura(es : lettura , scrittura)
+
+file = open("corso python/venerdi21-11/nome_file.txt", "r")
+
+#dopo aver aperto un file in modalità lettura è possibile leggere il suo contenuto utilizzado
+#read() e readline()
+
+
+#read() = leggere intero contenuto del file come una singola stringa
+#readline() = legge una singola riga alla volta
+
+file = open("corso python/venerdi21-11/nome_file.txt", "r")
+contenuto = file.read()
+riga = file.readline()
+print(contenuto)
+
+#Per scriver dati su file è necessario aprire il file in modalità scrittura o aggiunta.
+#la modalità di scrittura w sovrascrive il contenuto del file esistente , mentre la modalità aggiunta "a" aggiunge il contenuto alla fine del file
+
+#con write() è possibile scrivere dati su un file
+
+file = open("corso python/venerdi21-11/nome_file.txt", "w")
+file.write("Questo è un esempio di scrittura su file")
+file.close()
