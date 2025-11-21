@@ -1,0 +1,62 @@
+Le 3 regole fondamentali sono : Ereditarietà , Incapsulamento e Polimorfismo.
+
+L'Ereditarietà si verifica quando creamo una classe detta superclasse(o classe padre), e delle altre classi dette sottoclassi(o classi figlio), la quale ereditano attributi e metodi della classe padre appunto.
+Una classe figlio può aggiugere attributi e metodi propri , e inoltre può anche sovrascrivere un metodo ereditato dalla classe padre appunto
+class Persona:
+    def __init__(self,nome,eta):
+        self.nome = nome
+        self.eta = eta
+        
+    def lavora(self):
+        print(f"{self.nome} di anni {self.eta} lavora!)
+        
+class Uomo(Persona):
+    def __init__(self,nome,eta,lavoro)
+    super().__init__(nome,eta)
+    self.lavoro = lavoro    
+    
+    def lavora():
+        print(f"{self.nome} di anni {self.eta} lavora come {self.lavoro})
+        
+
+L'Incapsulamento si tratta della difesa degli attributi di una classe, rendendoli privati(__nomeattributo) , o protetti(_nomeattributo). Una volta fatto questo per accedere a questi attributi è necessario definire due metodi 
+Il getter per ottenere l'attributo , e il setter per ottenere l'attributo 
+
+class Persona:
+    def __init__(self,nome,eta):
+        self._nome = nome
+        self._eta = eta
+    
+    def get._nome(self):
+        return self._nome
+        
+    def get._eta(self):
+        return self._eta
+        
+     def set._nome(self):
+          self._nome = nome  
+        
+    def set._eta(self):
+        self._eta = eta
+    
+        
+persona = Persona()
+print(persona.get_nome())
+print(persona.get_eta())
+persona.set_nome("Gianmarco")
+persona.set_eta("21")
+
+Il Polimorfismo invece ci permette di trattare oggetti di classi diverse attraverso un interfaccia comune, aiutandoci così a gestire il codice più facilmente
+Si manifesta sopratutto tramite la sovrascrittura e ci permette anche di usare tutte e 3 le regole fondamentali insieme
+Il Polimorfismo piùforte è quello duck typing 
+
+class Padre:
+    def lavora(self):
+        return "Si"
+        
+class Ragazzo:
+    def lavora(self):
+        return "No"
+        
+    def fai_lavorare(persona):
+        print(persona.lavora())
