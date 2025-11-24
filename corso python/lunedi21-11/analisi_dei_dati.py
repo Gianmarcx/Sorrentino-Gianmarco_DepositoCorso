@@ -10,7 +10,7 @@
 
 # Integrazione con ambienti virtuali: PIP funziona bene con ambienti virtuali come venv o virtualenv, permettendo agli sviluppatori di creare ambienti isolati per gestire le dipendenze dei loro progetti in modo indipendente.
 
-#NumPy : libreria fondamentale per ilk calcolo scientifico in python
+#NumPy : libreria fondamentale per il calcolo scientifico in python
 #Fornisce supoorto per array e matrici multidmensionali , insieme a una vasta raccontla di funzioni matematiche per operare su questi array
 #Usato estensivamente come l'analisti dei dati , modellazione scientifica e machine learning 
 
