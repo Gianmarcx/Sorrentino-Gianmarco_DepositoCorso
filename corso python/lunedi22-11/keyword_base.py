@@ -2,7 +2,7 @@
 
 #ndarray : l'oggetto array multidimensionale principale di numpy che può contenere dati di un singolo tipo 
 #gli array di NumPy sono più veloci ed efficienti in termine di memoria rispetto alle liste native di python
-
+#è possibile creare array NumPy usando funzioni come np.array(), np.zeros() , np.arange() e np.linspace()
 
 #dtype: Specifica il tipo di dato degli elementi di un array. I tipi di dato comuni sono int , float , bool
 

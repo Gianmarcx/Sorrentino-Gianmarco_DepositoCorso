@@ -1,6 +1,8 @@
 #Numpy include il modulo per l'algebra lineare(numpy.linalg) che supporta operazioni come:
 
 #Prodotto Matriciale: np.dot(), np.matmul()
+#Prodotto determinante
+#autovalorui e autovettori
 
 import numpy as np
 

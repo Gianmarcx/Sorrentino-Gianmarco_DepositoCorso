@@ -31,7 +31,7 @@ print("Riga estratta:", riga_estratta)
 
 arr = np.random.randint(10, 51, size=(4, 4))
 print("Array 4x4:", arr)
-# Crea una matrice 4x4 con interi casuali tra 10 e 50 (51 escluso).
+# Crea un array 4x4 con interi casuali tra 10 e 50 (51 escluso).
 
 righe = [0, 1, 2, 3]
 colonne = [1, 3, 2, 0]
