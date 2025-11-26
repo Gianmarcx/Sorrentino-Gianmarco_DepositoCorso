@@ -88,3 +88,5 @@ while True:  # Ciclo infinito: mostra il menu finché l'utente non sceglie di us
         break  # Interrompe il ciclo while e termina il programma
     else:
         print("Scelta non valida. Riprova.")  # Gestione input non validi
+        
+    
