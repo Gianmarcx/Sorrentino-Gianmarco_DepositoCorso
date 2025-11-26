@@ -38,3 +38,6 @@ dati_libro = ("Il signore degli anelli", "J.R.R. Tolkien",1954,25.50)
 
 cursor.execute(sql_insert,dati_libro)
 print("Inserito un singolo libro")
+
+conn.commit()
+conn.close()
