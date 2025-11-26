@@ -40,4 +40,31 @@ cursor.execute(sql_insert,dati_libro)
 print("Inserito un singolo libro")
 
 conn.commit()
-conn.close()
+
+
+# 5. INSERIMENTO MULTIPLO (executemany) - Molto più veloce per tanti dati
+lista_libri = [
+("1984", "George Orwell", 1949, 12.00),
+("Il Piccolo Principe", "Antoine de Saint-Exupéry", 1943, 9.50),
+("Dune", "Frank Herbert", 1965, 18.90),
+("Python Crash Course", "Eric Matthes", 2019, 35.00)
+]
+
+cursor.executemany(sql_insert, lista_libri)
+print(f"Inseriti {cursor.rowcount} libri in blocco.")
+
+# 6. SALVATAGGIO (COMMIT)
+# Fondamentale! Senza questo, i dati verrebbero persi alla chiusura.
+conn.commit()
+print("Modifiche committate (salvate) nel DB.")
+
+# 7. LETTURA DATI (SELECT)
+print("\n--- Lettura di tutti i libri ---")
+cursor.execute("SELECT * FROM libri")
+
+# fetchall() recupera tutte le righe rimanenti come una lista di tuple
+tutti_i_libri = cursor.fetchall()
+
+for libro in tutti_i_libri:
+# libro è una tupla: (id, titolo, autore, anno, prezzo)
+    print(f"ID: {libro[0]} | Titolo: {libro[1]} | Prezzo: {libro[4]}€")
