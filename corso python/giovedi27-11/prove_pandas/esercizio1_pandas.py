@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 # Percorso del file CSV (Titanic - train.csv)
 file_path = 'corso python/giovedi27-11/prove_pandas/train.csv'
