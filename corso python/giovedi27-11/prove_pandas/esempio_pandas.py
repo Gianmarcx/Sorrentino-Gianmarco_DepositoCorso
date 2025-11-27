@@ -132,3 +132,4 @@ print(df)
 # Stampa del DataFrame con dati mancanti sostituiti
 print("\nDataFrame con dati mancanti sostituiti:")
 print(df)
+
