@@ -122,6 +122,10 @@ df = df.drop_duplicates()
 # Possiamo rimuovere le righe dove almeno un elemento è mancante
 # df_cleaned = df.dropna()
 
+#Gestione dei dati
+#RImoz delle righe dove almeno un elemento è manante
+df_clean = df.dropna()
+
 # possiamo sostituire i dati mancanti con valore di default (media)
 df['Età'].fillna(df['Età'].mean(), inplace=True)
 

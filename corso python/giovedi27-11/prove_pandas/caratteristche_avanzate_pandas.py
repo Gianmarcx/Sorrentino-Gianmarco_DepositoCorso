@@ -65,3 +65,39 @@ df_sorted = df.sort_values(by = 'età')
 #Unione dei due dataframe
 merged_df = pd.merge(df, df_csv, on = 'nome')
 
+
+
+
+#Serie Temporali: Pandas offre strumenti per manipolare date e tempi, permette di analizzare serie temporali, cambiare le frequenza dei dati e generare periodi di tempo
+
+#Generazione di una serie di date
+data_range = pd.date_range(start='2021-01-01' , periods=10, freq='M')
+
+#Resampling dei dati di una serie temporale
+df_resampled = df.resample('M').mean()
+
+
+#pd.to_datetime() : converte un indice o una colonna in formato datetime, permettendo di sfruttare tutte le funzionalità di time series DI python
+
+import pandas as pd
+
+#esempio: colonna "date"in stringhe --> datetime
+df['date'] = pd.to_datetime(df['date'], format= '%Y-%m-%d')
+#oppure per creare un indice
+df.index= pd.to_datetime(df['date'])
+
+#DataFrame.resample() : Ridimensiona (aggregate o down/up-sample) la frequenza temporale dei dati specificanzo l'intervallo desiderato('D' = day, 'M'=month , 'H' = hour, ...)
+
+#Partendo da un dataframe con indci DatetimeIndex
+df_daily = df.resample('D').mean #media giornaliera
+df_monthly = df.resample('M').sum() #somma mensile
+
+#Series.shift() : "Sposta" i valori lungo l'asse temporale di un numero di periodi, utile per calcolare differenze ritardate , tassi di crescita , ecc.
+
+#aggiunge una colonna con il valore del giorno precedente
+df['prev_day'] = df['value'].shift(1)
+
+#tasso di variazione giornaliero
+df['daily_return'] = df['value'].pct_change()
+#equivalente a shift + calcolo%
+
