@@ -23,3 +23,4 @@ accuracy = accuracy_score(y_test, predictions) #calcolo l'accuratezza confrontan
 
 #Stampa risultato finale
 print(f'Accuracy finale: {accuracy:.2f}')
+
